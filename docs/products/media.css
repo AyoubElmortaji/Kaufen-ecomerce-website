@@ -1,0 +1,118 @@
+@media only screen and (max-width:800px){
+
+    nav ul{
+        position: absolute;
+        top:70px;
+        left:0;
+        background-color: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.6s;
+     
+    }
+   
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10x;
+        margin-bottom: 10px;
+       
+    }
+
+    nav ul li a{ 
+        color: whitesmoke;
+    }
+    .menu-icons{
+        cursor: pointer;
+        display: block;
+      }
+
+      
+   
+      input[type="text"],
+input[type="email"],input[type="number"],input[type="tel"],select[name="chose"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  width: 100%;
+  max-width: 350px;
+}
+.imgprod{
+  justify-content: center;
+  overflow: hidden;
+  max-width: 100%;
+}
+img{
+ 
+  width: 150px;
+  height: auto;
+  justify-content: center;
+}
+}
+
+@media only screen and (max-width: 768px) {
+   
+  input[type="text"],
+  input[type="email"],input[type="number"],input[type="tel"],select[name="chose"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    width: 100%;
+    max-width: 350px;
+  }
+  .imgprod{
+    justify-content: center;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  img{
+   
+    width: 150px;
+    height: auto;
+    justify-content: center;
+  }
+  }
+@media only screen and (max-width:600px){
+
+    
+  input[type="text"],
+  input[type="email"],input[type="number"],input[type="tel"],select[name="chose"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    width: 100%;
+    max-width: 350px;
+  }
+  .imgprod{
+    justify-content: center;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  img{
+   
+    width: 150px;
+    height: auto;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+
+
+    
+
+}
